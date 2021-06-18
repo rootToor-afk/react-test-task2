@@ -7,7 +7,7 @@
   "scripts": {
     "build": "webpack",
     "test": "jest --updateSnapshot",
-    "start": "webpack-dev-server --port=3003  --hot --inline"
+    "start": "webpack-dev-server --config webpack.config.cjs --port=3003  --hot"
   },
   "dependencies": {
     "@babel/cli": "^7.14.5",
