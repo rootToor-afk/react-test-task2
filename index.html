@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>React App</title>
+    <style>
+      body {
+        font-family: Roboto-Bold;
+        color: #37474f;
+      }
+
+      .container {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        width: 100%;
+      }
+
+      .counter__container {
+        margin: auto;
+      }
+
+      .clicks__container {
+        font-size: 75px;
+        text-align: center;
+      }
+      .clicks__container .title {
+        padding: 0 10px 0 0px;
+      }
+
+      button {
+        background: #5e19f5;
+        border: 1px solid #979797;
+        border-radius: 8px;
+        font-family: Roboto-Regular;
+        font-size: 32px;
+        color: #ffffff;
+        margin: 0 70px;
+        padding: 10px 45px;
+      }
+
+      button:focus {
+        font-family: Roboto-Bold;
+        font-size: 84px;
+        color: #37474f;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="main"></div>
+    <!-- Main -->
+    <script src="./dist/bundle.js"></script>
+  </body>
+</html>
