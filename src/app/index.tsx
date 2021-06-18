@@ -1,4 +1,6 @@
-import Counter from "../counter/counter";
+import React from "react";
+
+import Counter from "../counter/Counter";
 import CounterStore from "../store/store";
 
 const counterStore = new CounterStore();

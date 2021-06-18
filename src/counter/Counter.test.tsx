@@ -1,7 +1,7 @@
 import React from "react";
 import * as renderer from "react-test-renderer";
 
-import Counter from "./counter";
+import Counter from "./Counter";
 import CounterStore from "../store/store";
 const counterStore = new CounterStore();
 
